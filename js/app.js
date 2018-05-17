@@ -42,24 +42,3 @@
     }
 
     contador();
-/*
-    var contador= function(){
-        var msg = document.getElementsByClassName("format-textArea")[0],
-            charLeftLabel = "char-left",
-            charLeft = document.getElementsByClassName(charLeftLabel)[0],
-            maxChar = 140,
-            maxCharWarn = 0;
-        
-            // show characters left at start
-            charLeft.innerHTML = maxChar;
-            // update while typing
-            msg.onkeydown = function(){
-                setTimeout(function(){
-                charLeft.innerHTML = maxChar - msg.value.length;
-                // whether or not to display warning class based on characters left
-                var warnLabel = msg.value.length >= maxChar - maxCharWarn ? " warning" : "";
-                charLeft.className = charLeftLabel + warnLabel;
-            }, 1); 
-            };
-    }
-    */
