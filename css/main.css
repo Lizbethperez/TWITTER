@@ -73,6 +73,10 @@ header  {
     font-size: 18px;
 
 }
+.deshabilitad{
+    background-color:red;
+}
+/*FORMATOS PARA EL CONTADOR*/
 .warning {
     color:yellow;
 }
