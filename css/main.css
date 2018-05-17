@@ -73,3 +73,10 @@ header  {
     font-size: 18px;
 
 }
+.warning {
+    color:yellow;
+}
+
+.alarma {
+    color: #c00;
+}
