@@ -1,0 +1,75 @@
+body{
+    box-sizing: border-box;
+
+}
+header  {
+    margin:0;
+    background-color: #52b3db;
+    left: 0;
+    position:fixed;
+    top:0;
+    width:100%;
+    text-align: center;
+    font-size: 20px;
+}
+.fa-twitter{
+    color:white;
+}  
+
+.format-Title{
+    display:inline-block;
+    color:white;
+    
+}
+
+/*SE AGREGAN LOS ESTILOS PARA EL MAIN */
+.area-trabajo{
+    display: block;
+    position:relative;
+    width:50%;
+    margin-top:10%;
+    height: auto;
+    background-color:  #52b3db;
+    border-radius: 5%;
+}
+.format-textArea{
+    width: 60%;
+    height: auto;
+    /*margin:3%;*/
+    margin-top:3%;
+    margin-left: 3%;
+    font-size: 14px;
+
+}
+
+#btn{
+    display:block;
+    margin:5%;
+    border-radius: 3%;
+    font-size: 18px;
+    padding:2%;
+    margin-bottom: 2%;
+    color:white;
+    background-color: teal;
+    border:none;
+}
+
+/*formatos para el contenedor de los comentarios */
+
+.format-Comentarios{
+    display:inline-block;
+    width:50%;
+    position:relative;
+    margin-bottom:5em;
+    height: auto;
+
+}
+
+.formatContainerComment{
+    display:block;
+    outline: 1px solid black;
+    margin:2%;
+    border-radius: 10%;
+    font-size: 18px;
+
+}
